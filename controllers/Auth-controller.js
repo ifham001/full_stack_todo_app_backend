@@ -15,7 +15,7 @@ const signUp = async (req, res,next) => {
                     message: "User already exists"
                 })
             }
-        }
+        } 
         )
         let hashedPassword;
         try {
